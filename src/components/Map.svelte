@@ -118,7 +118,7 @@
   }
 
   button {
-    font-size: 100%;
+    font-size: 2.6rem;
     font-family: inherit;
     font-weight: 300;
     border: 0;
@@ -160,7 +160,7 @@
                 <button
                   class:active="{current === 'parañaque'}"
                   on:click="{goParañaque}">
-                  parañaque
+                  p'que
                 </button>
                 -
                 <button

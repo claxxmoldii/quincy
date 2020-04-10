@@ -220,10 +220,10 @@
 
     <div class="isaVos isCubey">
       <div>
-        <h3>à vos côtés depuis<br/>
+        <h3>established<br/>
             -<br/>
-            <span>1995</span><br/>
-          lyon - paris</h3>
+            <span>2010</span><br/>
+          p'que - cainta</h3>
       </div>
     </div>
     <div class="isEmpty isCubey"></div>

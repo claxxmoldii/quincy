@@ -42,10 +42,10 @@
 
 <section class="isQuestions">
   <div>
-    <p class="isTitle">Posez nous vos questions</p>
-    <h2>Je suis <a href="">votre métier</a> et je recherche un avocat.</h2>
+    <p class="isTitle">Ask us your questions</p>
+    <h2>I'm looking for <a href="">web presence</a> which fits my brand.</h2>
   </div>
   <div>
-    <p class="isResponse">voir notre résponse</p>
+    <p class="isResponse">see our response</p>
   </div>
 </section>

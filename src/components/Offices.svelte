@@ -122,9 +122,9 @@
     <h4>Parañaque</h4>
       <span class="isDivider">—</span>
     <h6>Parañaque Office</h6>
-    <h6>8e arrondissement</h6>
-    <p class="isAddress">17 rue du Colisée</p>
-    <p class="isAddress">75008 PARIS</p>
+    <h6>Manila South</h6>
+    <p class="isAddress"> 4F SM Bicutan</p>
+    <p class="isAddress">Parañaque City</p>
     <p class="isTel">T. —> 01 42 25 42 30</p>
   </div>
 
@@ -138,9 +138,9 @@
       class:isHighlight="{cainta}"></div>
       <span class="isDivider">—</span>
     <h6>Cainta Office</h6>
-    <h6>Bureau Principal</h6>
-    <p class="isAddress">PARC D'AFFAIRES DE CRÉCY, 17 avenue Charles de Gaulle</p>
-    <p class="isAddress">69771 SAINT DIDIER AU MONT D'OR</p>
+    <h6>Manila East</h6>
+    <p class="isAddress">Brick Road, Sta. Lucia East Grand Mall</p>
+    <p class="isAddress">Cainta, Rizal</p>
     <p class="isTel">T. —> 04 72 53 14 90F. —> 04 72 53 14 99</p>
   </div>
 </div>
