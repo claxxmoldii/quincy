@@ -7,29 +7,29 @@
   let container;
   let map;
   let zoom = 16;
-  let paris = {lat: 48.870855, lng: 2.306500};
-  let lyon = {lat: 45.798431, lng: 4.807788};
-  let center = paris;
-  let current = 'paris';
+  let parañaque = {lat: 14.486942, lng: 121.043405};
+  let cainta = {lat: 14.616807, lng: 121.101018};
+  let center = parañaque;
+  let current = 'parañaque';
 
-  const parisMarker = new google.maps.Marker({
-    position: paris,
+  const parañaqueMarker = new google.maps.Marker({
+    position: parañaque,
     map: map
   });
 
-  const lyonMarker = new google.maps.Marker({
-    position: lyon,
+  const caintaMarker = new google.maps.Marker({
+    position: cainta,
     map: map
   });
 
-  function goParis() {
-    current = 'paris';
-    map.setCenter(paris);
+  function goParañaque() {
+    current = 'parañaque';
+    map.setCenter(parañaque);
   }
 
-  function goLyon() {
-    current = 'lyon';
-    map.setCenter(lyon);
+  function goCainta() {
+    current = 'cainta';
+    map.setCenter(cainta);
   }
 
   onMount(async () => {
@@ -37,8 +37,8 @@
       zoom,
       center
     });
-    parisMarker.setMap(map);
-    lyonMarker.setMap(map);
+    parañaqueMarker.setMap(map);
+    caintaMarker.setMap(map);
   });
 </script>
 
@@ -158,15 +158,15 @@
               <h5>ou?</h5>
               <h4>
                 <button
-                  class:active="{current === 'paris'}"
-                  on:click="{goParis}">
-                  paris
+                  class:active="{current === 'parañaque'}"
+                  on:click="{goParañaque}">
+                  parañaque
                 </button>
                 -
                 <button
-                  class:active="{current === 'lyon'}"
-                  on:click="{goLyon}">
-                  lyon
+                  class:active="{current === 'cainta'}"
+                  on:click="{goCainta}">
+                  cainta
                 </button>
               </h4>
               <p><a href="">- & -<br/>
@@ -179,7 +179,7 @@
   </div>
 
   <Offices
-    on:mapToLyon={goLyon}
-    on:mapToParis={goParis}
+    on:mapToCainta={goCainta}
+    on:mapToParañaque={goParañaque}
     current = {current}/>
 </section>

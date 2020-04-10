@@ -5,17 +5,17 @@
 
   export let current = 'paris';
 
-  let paris = true;
-  let lyon = false;
+  let parañaque = true;
+  let cainta = false;
 
-  function goParis() {
-    current = 'paris';
-    dispatch('mapToParis');
+  function goParañaque() {
+    current = 'parañaque';
+    dispatch('mapToParañaque');
   }
 
-  function goLyon() {
-    current = 'lyon';
-    dispatch('mapToLyon');
+  function goCainta() {
+    current = 'cainta';
+    dispatch('mapToCainta');
   }
 </script>
 
@@ -111,17 +111,17 @@
 
 <div class="isOffices">
   <div class="isOffice"
-    on:click="{goParis}"
-    on:mouseenter="{() => paris = true}"
-    on:mouseleave="{() => paris = false}"
+    on:click="{goParañaque}"
+    on:mouseenter="{() => parañaque = true}"
+    on:mouseleave="{() => parañaque = false}"
     >
     <div class=""
-      class:isActive="{current === 'paris'}"
-      class:isHighlight="{paris}"
+      class:isActive="{current === 'parañaque'}"
+      class:isHighlight="{parañaque}"
       ></div>
-    <h4>Paris</h4>
+    <h4>Parañaque</h4>
       <span class="isDivider">—</span>
-    <h6>Barreau de Paris</h6>
+    <h6>Parañaque Office</h6>
     <h6>8e arrondissement</h6>
     <p class="isAddress">17 rue du Colisée</p>
     <p class="isAddress">75008 PARIS</p>
@@ -129,15 +129,15 @@
   </div>
 
   <div class="isOffice"
-    on:click="{goLyon}"
-    on:mouseenter="{() => lyon = true}"
-    on:mouseleave="{() => lyon = false}">
-    <h4>Lyon</h4>
+    on:click="{goCainta}"
+    on:mouseenter="{() => cainta = true}"
+    on:mouseleave="{() => cainta = false}">
+    <h4>Cainta</h4>
     <div class=""
-      class:isActive="{current === 'lyon'}"
-      class:isHighlight="{lyon}"></div>
+      class:isActive="{current === 'cainta'}"
+      class:isHighlight="{cainta}"></div>
       <span class="isDivider">—</span>
-    <h6>barreau de lyon</h6>
+    <h6>Cainta Office</h6>
     <h6>Bureau Principal</h6>
     <p class="isAddress">PARC D'AFFAIRES DE CRÉCY, 17 avenue Charles de Gaulle</p>
     <p class="isAddress">69771 SAINT DIDIER AU MONT D'OR</p>
