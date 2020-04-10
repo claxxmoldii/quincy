@@ -155,7 +155,7 @@
         <div class="isBlock">
           <div class="isOu">
             <div class="isKontenner">
-              <h5>ou?</h5>
+              <h5>where?</h5>
               <h4>
                 <button
                   class:active="{current === 'parañaque'}"
@@ -170,7 +170,7 @@
                 </button>
               </h4>
               <p><a href="">- & -<br/>
-                chez vous!</a></p>
+                reach us!</a></p>
             </div>
           </div>
         </div>

@@ -38,10 +38,10 @@
 </style>
 
 <section class="isContact">
-  <p>SCP Quincy Réquin & Associés</p>
-  <address><h4><a href="mailto:">contact@quincy-requin-avocats.com</a></h4></address>
+  <p>SCP Betts / Trillana & Associates</p>
+  <address><h4><a href="mailto:">contact@bettstrillana.com</a></h4></address>
 </section>
 
 <section class="isLegales">
-  <a href="">—> Mentions légales</a>
+  <a href="">—> terms / legal</a>
 </section>
