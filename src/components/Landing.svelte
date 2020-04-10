@@ -191,14 +191,14 @@
   <div class="isGrid isTitleBlock">
     <div>
       <header class="isTitle">
-        <h1>quincy</h1>
-        <h1>requin</h1>
-        <h3>& associés</h3>
+        <h1>betts/</h1>
+        <h1>trillana</h1>
+        <h3>& associates</h3>
       </header>
     </div>
     <div>
       <p class="isDescription">
-        <span>Cabinet d’avocats – conseils d’entreprises</span> → conseil en droit des affaires, droit des sociétés, droit social mais aussi interface pour l’ensemble de vos questions juridiques.
+        <span>Corporate communications – Web presence</span> → an independent content strategy firm with offices in Parañaque and Cainta, our operation provides solutions for mostly technology firms, focusing on corporate communications to build stronger brands.
       </p>
     </div>
   </div>
