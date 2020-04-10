@@ -3,8 +3,8 @@
 </script>
 
 <Cubey>
-  <span slot="isTitle">avec cui?</span>
+  <span slot="isTitle">partners?</span>
   <span slot="isFrenchie">
-    nous développons un réseau de partenaires intervenent dans l'environnement juridique de l'entreprise...
+    we develop a network of partners involved in the brand building environment of the company...
   </span>
 </Cubey>

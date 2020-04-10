@@ -3,8 +3,8 @@
 </script>
 
 <Cubey>
-  <span slot="isTitle">pour qui?</span>
+  <span slot="isTitle">clients?</span>
   <span slot="isFrenchie">
-    nos clients sont chef d'entreprises, commerçants, créateurs de projets, investisseurs, professions libérales...
+    they are brand advocates, project managers, communications officers, creative professionals...
   </span>
 </Cubey>

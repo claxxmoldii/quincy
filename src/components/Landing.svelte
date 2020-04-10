@@ -243,7 +243,7 @@
     <div class="isQuote isCounterCubey">
       <div>
         <q>
-          notre cabinet est à vos côtés dans toutes les étapes de la vie de votre entreprise, sa création, son développment, sa transmission.
+          our firm is at your side in all stages of your campaign, its creation, its development, its deployment.
         </q>
       </div>
     </div>

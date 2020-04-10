@@ -3,8 +3,8 @@
 </script>
 
 <Cubey>
-  <span slot="isTitle">qui?</span>
+  <span slot="isTitle">strats?</span>
   <span slot="isFrenchie">
-    avocats, juristes, assistantes: nous intervenons en appui de vos structures pour vos questions juridiques...
+    design, tests, feedback: we intervene in support of your structures for brand's needs ...
   </span>
 </Cubey>

@@ -3,8 +3,10 @@
 </script>
 
 <Cubey>
-  <span slot="isTitle">quoi?</span>
+  <span slot="isTitle">comm?</span>
   <span slot="isFrenchie">
-    nous vous assistons et intervenons  en droit des affaires, droit des sociétés et droit social...
+    we assist you in business communications and corporate communications ...
+
+
   </span>
 </Cubey>
